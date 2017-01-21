@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumatorWebForms", "SumatorWebForms\SumatorWebForms.csproj", "{06AB8828-5494-4A5C-BF97-95803D7CB084}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumatorMVC", "SumatorMVC\SumatorMVC.csproj", "{F3C74AC2-683D-4EB5-8D59-399208FC5CB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{06AB8828-5494-4A5C-BF97-95803D7CB084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06AB8828-5494-4A5C-BF97-95803D7CB084}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06AB8828-5494-4A5C-BF97-95803D7CB084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C74AC2-683D-4EB5-8D59-399208FC5CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C74AC2-683D-4EB5-8D59-399208FC5CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C74AC2-683D-4EB5-8D59-399208FC5CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C74AC2-683D-4EB5-8D59-399208FC5CB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
