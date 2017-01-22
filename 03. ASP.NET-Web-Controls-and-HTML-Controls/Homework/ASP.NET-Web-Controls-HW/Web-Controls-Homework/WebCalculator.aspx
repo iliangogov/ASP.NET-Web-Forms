@@ -5,7 +5,7 @@
     <div runat="server" id="Calculator" class="jumbotron">
          <input type="text" runat="server" name="valueInMemory" ID="valueInMemory" hidden="hidden" />
             <input type="text" runat="server" name="lastSelectedOperator" ID="lastSelectedOperator" hidden="hidden" />
-            <input type="text" runat="server" value="0" ID="resultBox" readonly />
+            <input type="text" runat="server" value="0" ID="resultBox"  />
             <ul>
                 <li><input runat="server" onserverclick="OnDigitButtonClicked" type="button" value="1" /></li>
                 <li><input runat="server" onserverclick="OnDigitButtonClicked" type="button" value="2" /></li>
@@ -24,5 +24,6 @@
                 <li><input runat="server" onserverclick="OnOperatorButtonClicked" type="button" value="/" /></li>
                 <li><input runat="server" onserverclick="OnGetResultButtonClicked" type="button" value="=" /></li>
             </ul>
+        <asp:Button ID="Clear" runat="server" Text="Clear" OnClick="ClearButton_Click" CssClass="btn btn-warning" />
     </div>
 </asp:Content>

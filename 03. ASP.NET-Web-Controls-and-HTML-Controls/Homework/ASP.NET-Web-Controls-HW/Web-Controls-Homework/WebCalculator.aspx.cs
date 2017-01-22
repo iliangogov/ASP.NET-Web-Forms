@@ -101,5 +101,10 @@ namespace WebControlsHomework
                     }
             }
         }
+
+        protected void ClearButton_Click(object sender, EventArgs e)
+        {
+            this.resultBox.Value = "0";
+        }
     }
 }
