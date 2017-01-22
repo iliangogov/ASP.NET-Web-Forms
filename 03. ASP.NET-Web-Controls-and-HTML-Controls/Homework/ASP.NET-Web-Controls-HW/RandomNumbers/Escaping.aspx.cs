@@ -12,11 +12,10 @@ namespace WebControlsHomework
 
         protected void OnSubmitButtonClicked(object sender, EventArgs e)
         {
-            var enteredText = this.mainTextBox.Text;
-            var decoded = System.Security.SecurityElement.Escape(enteredText);
+            var enteredText = System.Security.SecurityElement.Escape(this.mainTextBox.Text);
 
-            this.enteredTextBox.Text = decoded;
-            this.enteredTextLabel.Text = decoded;
+            this.enteredTextBox.Text = enteredText;
+            this.enteredTextLabel.Text = enteredText;
         }
     }
 }
