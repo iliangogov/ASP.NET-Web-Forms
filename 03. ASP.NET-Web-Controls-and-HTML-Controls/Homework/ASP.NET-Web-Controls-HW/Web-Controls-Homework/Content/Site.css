@@ -1,7 +1,8 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
-body {
+body{
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: transparent; 
 }
 
 /* Wrapping element */
@@ -17,7 +18,6 @@ select,
 textarea {
     max-width: 280px;
 }
-
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

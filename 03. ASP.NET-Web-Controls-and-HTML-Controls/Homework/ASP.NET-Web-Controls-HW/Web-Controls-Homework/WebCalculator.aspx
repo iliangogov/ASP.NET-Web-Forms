@@ -1,8 +1,9 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebCalculator.aspx.cs" Inherits="WebControlsHomework.WebCalculator" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
-    <link href="Content/Calculator.css" rel="stylesheet" />
+    
     <div runat="server" id="Calculator" class="jumbotron">
+    <link href="Content/Calculator.css" rel="stylesheet" />
          <input type="text" runat="server" name="valueInMemory" ID="valueInMemory" hidden="hidden" />
             <input type="text" runat="server" name="lastSelectedOperator" ID="lastSelectedOperator" hidden="hidden" />
             <input type="text" runat="server" value="0" ID="resultBox"  />

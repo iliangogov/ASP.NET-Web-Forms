@@ -13,7 +13,7 @@
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
-<body>
+<body style=" background-image:url('https://wallpaperscraft.com/image/line_light_background_bright_43975_2560x1600.jpg'); background-repeat:no-repeat;">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>

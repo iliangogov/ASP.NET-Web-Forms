@@ -10,7 +10,7 @@
     <link href="Content/Site.css" rel="stylesheet" />
     <script src="Scripts/jquery-1.10.2.min.js"></script>
 </head>
-<body>
+<body style=" background-image:url('https://wallpaperscraft.com/image/line_light_background_bright_43975_2560x1600.jpg');">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
