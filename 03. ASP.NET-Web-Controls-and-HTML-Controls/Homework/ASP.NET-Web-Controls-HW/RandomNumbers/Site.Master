@@ -53,6 +53,10 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/RandomNumbersWeb">Random Numbers Web</a></li>
                         <li><a runat="server" href="~/RandomNumbersHtml">Random Numbers Html</a></li>
+                        <li><a runat="server" href="~/Escaping">Escaping</a></li>
+                        <li><a runat="server" href="~/StudentsAndCourses">Students and Courses</a></li>
+                        <li><a runat="server" href="~/TicTacToe">Tic-tac-toe</a></li>
+                        <li><a runat="server" href="~/WebCalculator">Web Calculator</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +66,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - ASP.NET Web-Controls and HTML-Controls Homework</p>
             </footer>
         </div>
 

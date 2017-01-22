@@ -25,6 +25,10 @@
                     <li><a runat="server" href="~/">Home</a></li>
                     <li><a runat="server" href="~/RandomNumbersWeb">Random Numbers Web</a></li>
                     <li><a runat="server" href="~/RandomNumbersHtml">Random Numbers Html</a></li>
+                    <li><a runat="server" href="~/Escaping">Escaping</a></li>
+                    <li><a runat="server" href="~/StudentsAndCourses">Students and Courses</a></li>
+                    <li><a runat="server" href="~/TicTacToe">Tic-tac-toe</a></li>
+                    <li><a runat="server" href="~/WebCalculator">Web Calculator</a></li>
                 </ul>
             </div>
         </div>
@@ -43,6 +47,11 @@
                 <div id="randomNumberContainer" runat="server"></div>
             </form>
         </div>
+    </div>
+    <div class="container body-content">
+        <footer>
+            <p>&copy; <%: DateTime.Now.Year %> - ASP.NET Web-Controls and HTML-Controls Homework</p>
+        </footer>
     </div>
 </body>
 </html>
