@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Random Numbers Web" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RandomNumbersWeb.aspx.cs" Inherits="RandomNumbers.RandomNumbersWeb" %>
+﻿<%@ Page Title="Random Numbers Web" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RandomNumbersWeb.aspx.cs" Inherits="WebControlsHomework.RandomNumbersWeb" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">

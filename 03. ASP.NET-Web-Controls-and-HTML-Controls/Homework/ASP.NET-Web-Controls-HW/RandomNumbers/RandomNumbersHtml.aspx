@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RandomNumbersHtml.aspx.cs" Inherits="RandomNumbers.RandomNumbersHtml" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RandomNumbersHtml.aspx.cs" Inherits="WebControlsHomework.RandomNumbersHtml" %>
 
 <%--No asp: tags here! Thats why looks lika a master page :)--%>
 <!DOCTYPE html>

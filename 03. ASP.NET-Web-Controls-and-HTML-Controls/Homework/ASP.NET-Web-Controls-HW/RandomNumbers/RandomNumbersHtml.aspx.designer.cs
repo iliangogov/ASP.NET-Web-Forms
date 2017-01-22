@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RandomNumbers {
+namespace WebControlsHomework {
     
     
     public partial class RandomNumbersHtml {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RandomNumbers
+namespace WebControlsHomework
 {
     public partial class RandomNumbersWeb : System.Web.UI.Page
     {
