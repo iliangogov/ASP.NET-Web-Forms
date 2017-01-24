@@ -66,6 +66,10 @@ textarea {
         background-color:aquamarine !important;
     }
 
+      #sidebar-wrapper.additional {
+        background-color:chartreuse !important;
+    }
+
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
 }

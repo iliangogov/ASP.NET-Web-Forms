@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SeparateMasterPages.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdditionalInfo.master.cs" Inherits="SeparateMasterPages.AdditionalInfo" %>
 
 <!DOCTYPE html>
 
@@ -42,13 +42,13 @@
         <div id="wrapper">
 
             <!-- Sidebar -->
-            <div id="sidebar-wrapper">
+            <div id="sidebar-wrapper" class="additional">
                 <ul class="sidebar-nav">
                     <li class="sidebar-brand">
-                        <strong>User profile </strong>
+                        <strong>Friends </strong>
                     </li>
                     <li>
-                        <a href="/Info">Personal info</a>
+                        <a href="/Info">Additional info</a>
                     </li>
                     <li>
                         <a href="FriendsList">Friends</a>
