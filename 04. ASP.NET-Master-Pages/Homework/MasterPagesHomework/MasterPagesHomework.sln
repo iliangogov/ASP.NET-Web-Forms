@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeparateMasterPages", "SeparateMasterPages\SeparateMasterPages.csproj", "{8A21D027-DF23-446C-B281-2578C0AE0E70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedMasterPages", "NestedMasterPages\NestedMasterPages.csproj", "{0C00B607-F2C7-469B-BD35-E50DFA796A19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8A21D027-DF23-446C-B281-2578C0AE0E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A21D027-DF23-446C-B281-2578C0AE0E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A21D027-DF23-446C-B281-2578C0AE0E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C00B607-F2C7-469B-BD35-E50DFA796A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C00B607-F2C7-469B-BD35-E50DFA796A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C00B607-F2C7-469B-BD35-E50DFA796A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C00B607-F2C7-469B-BD35-E50DFA796A19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

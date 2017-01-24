@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="GermanySite.master.cs" Inherits="NestedMasterPages.Germany.GermanySite" %>
+
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+
+        <div id="germany" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="/">Master</a></li>
+                        <li><a runat="server" href="/Germany/Home">Home</a></li>
+                        <li><a runat="server" href="/Germany/About">About</a></li>
+                        <li><a runat="server" href="/Germany/Contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</asp:Content>
