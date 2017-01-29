@@ -1,8 +1,40 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TicTacToe.aspx.cs" Inherits="WebControlsHomework.TicTacToe" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
-    <div runat="server" id="registerForm" class="jumbotron">
-        <h3>Google it. You'll find many variations of this game. No time for me to implement it!</h3>
-        <p><a href="https://playtictactoe.org/" class="btn btn-primary">Tic-Tac-Toe &raquo;</a></p>
-    </div>
+     <h2>Tic-Tac-Toe</h2>
+
+     <h2 id="winner" runat="server"></h2>
+    <asp:Table ID="Field" runat="server" Height="103px" Width="186px">
+        <asp:TableRow>
+            <asp:TableCell>
+                <asp:Button ID="Button0" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click" Height="60" Width="60" />
+            </asp:TableCell>
+            <asp:TableCell>
+                <asp:Button ID="Button1" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click" Height="60" Width="60" />
+            </asp:TableCell><asp:TableCell>
+                <asp:Button ID="Button2" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click"  Height="60" Width="60"/>
+            </asp:TableCell>
+        </asp:TableRow>
+        <asp:TableRow>
+            <asp:TableCell>
+                <asp:Button ID="Button3" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click" Height="60" Width="60" />
+            </asp:TableCell>
+            <asp:TableCell>
+                <asp:Button ID="Button4" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click" Height="60" Width="60" />
+            </asp:TableCell><asp:TableCell>
+                <asp:Button ID="Button5" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click" Height="60" Width="60" />
+            </asp:TableCell>
+        </asp:TableRow>
+        <asp:TableRow>
+            <asp:TableCell>
+                <asp:Button ID="Button6" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click"  Height="60" Width="60"/>
+            </asp:TableCell>
+            <asp:TableCell>
+                <asp:Button ID="Button7" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click"  Height="60" Width="60"/>
+            </asp:TableCell><asp:TableCell>
+                <asp:Button ID="Button8" runat="server" Text=" " CssClass="btn btn-default" OnClick="Button0_Click" Height="60" Width="60" />
+            </asp:TableCell>
+        </asp:TableRow>
+
+    </asp:Table>
 </asp:Content>
