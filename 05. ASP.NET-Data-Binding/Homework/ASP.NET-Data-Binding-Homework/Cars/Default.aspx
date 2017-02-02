@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET Homework</h1>
+        <h1>Data Binding Homework</h1>
         <p><a href="/Cars" class="btn btn-primary btn-lg">Task 1. Cars... &raquo;</a></p>
     </div>
 
