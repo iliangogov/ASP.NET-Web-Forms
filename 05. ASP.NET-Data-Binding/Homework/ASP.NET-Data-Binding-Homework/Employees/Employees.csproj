@@ -117,12 +117,14 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bookstore.xml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="EmployeeDetails.aspx" />
     <Content Include="Employees.aspx" />
     <Content Include="EmployeesFormView.aspx" />
+    <Content Include="EmployeesListView.aspx" />
     <Content Include="EmployeesRepeater.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -179,6 +181,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="TreeView.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -254,6 +257,13 @@
     </Compile>
     <Compile Include="EmployeesFormView.aspx.designer.cs">
       <DependentUpon>EmployeesFormView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesListView.aspx.cs">
+      <DependentUpon>EmployeesListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeesListView.aspx.designer.cs">
+      <DependentUpon>EmployeesListView.aspx</DependentUpon>
     </Compile>
     <Compile Include="EmployeesRepeater.aspx.cs">
       <DependentUpon>EmployeesRepeater.aspx</DependentUpon>
@@ -353,6 +363,13 @@
     </Compile>
     <Compile Include="Territory.cs">
       <DependentUpon>NorthwindDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView.aspx.cs">
+      <DependentUpon>TreeView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreeView.aspx.designer.cs">
+      <DependentUpon>TreeView.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
