@@ -123,6 +123,7 @@
     <Content Include="EmployeeDetails.aspx" />
     <Content Include="Employees.aspx" />
     <Content Include="EmployeesFormView.aspx" />
+    <Content Include="EmployeesRepeater.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -253,6 +254,13 @@
     </Compile>
     <Compile Include="EmployeesFormView.aspx.designer.cs">
       <DependentUpon>EmployeesFormView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesRepeater.aspx.cs">
+      <DependentUpon>EmployeesRepeater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeesRepeater.aspx.designer.cs">
+      <DependentUpon>EmployeesRepeater.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employee_Sales_by_Country_Result.cs">
       <DependentUpon>NorthwindDb.tt</DependentUpon>
