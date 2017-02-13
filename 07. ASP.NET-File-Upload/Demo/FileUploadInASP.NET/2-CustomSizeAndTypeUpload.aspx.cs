@@ -23,7 +23,7 @@ namespace FileUploadInASP.NET
                 {
                     if (FileUploadControl.PostedFile.ContentType == "image/jpeg")
                     {
-                        if (FileUploadControl.PostedFile.ContentLength < 102400)
+                        if (FileUploadControl.PostedFile.ContentLength < 1024000)
                         {
                             string filename = Path.GetFileName(FileUploadControl.FileName);
                             FileUploadControl.SaveAs(Server.MapPath("~/Uploaded_Files/") + filename);
